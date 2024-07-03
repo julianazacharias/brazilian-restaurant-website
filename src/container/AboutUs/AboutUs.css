@@ -1,0 +1,54 @@
+.app__aboutus {
+	position: relative;
+}
+
+.app__aboutus h1 {
+	color: var(--color-green);
+}
+
+.app__aboutus-content {
+	width: 100%;
+	z-index: 2;
+}
+
+.app__aboutus-content_image img {
+	border-radius: 5%;
+	width: 98%;
+	transition: 0.5s ease;
+	align-items: end;
+}
+
+.app__aboutus-content_image :hover {
+	width: 100%;
+	transition: 0.7s;
+	box-shadow: 6px 6px 8px 10px rgba(33, 43, 26, 0.582);
+}
+
+.app__aboutus-content_history {
+	flex: 1;
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-start;
+	flex-direction: column;
+	margin-right: 5rem;
+
+	text-align: left;
+}
+
+.app__aboutus-content_history p {
+	margin: 2rem 1rem;
+	font-weight: 600;
+	color: var(--color-black);
+}
+
+@media screen and (min-width: 2000px) {
+	.app__aboutus-content_history p {
+		margin: 4rem 0;
+	}
+}
+
+@media screen and (max-width: 900px) {
+	.app__aboutus-content {
+		flex-direction: column;
+	}
+}

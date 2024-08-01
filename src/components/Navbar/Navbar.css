@@ -33,7 +33,11 @@
 }
 
 .app__navbar-links li:hover {
-	color: var(--color-grey);
+	color: var(--color-orange);
+}
+
+.app__navbar-login a:hover {
+	color: var(--color-orange);
 }
 
 .app__navbar-smallscreen {

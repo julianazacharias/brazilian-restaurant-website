@@ -1,6 +1,6 @@
 # Brazilian Restaurant Website - Sabiá
 
-[Link to this project](https://brazilian-restaurant-website-mwcqjaohk.vercel.app/)
+[Link to this project](https://brazilian-restaurant-website.vercel.app/)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
